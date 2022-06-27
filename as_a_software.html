@@ -1,0 +1,25 @@
+---
+layout: base
+---
+<div class="vertical-center">
+  <a class="yellow back-link" href="/">Back</a>
+  <p>
+  Ashton McCrate is a back end developer with experience in: payments, customer support tools, developer experience, technical leadership, and management.
+  </p>
+  <span class="contact-me">
+  {% if site.github_username %}
+    <div class="external-link">
+      <a href="https://github.com/{{ site.github_username }}">
+        <i class="fa fa-github red"></i>
+      </a>
+    </div>
+  {% endif %}
+  {% if site.linkedin_username %}
+    <div class="external-link">
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+        <i class="fa fa-linkedin yellow"></i>
+      </a>
+    </div>
+  {% endif %}
+  </span>
+</div>
